@@ -11,7 +11,7 @@
 *.pyc
 *.db
 *.log
-defpage.site.egg-info
+defpage.static.egg-info
 bin/
 include/
 lib/
