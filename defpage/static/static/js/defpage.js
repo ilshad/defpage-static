@@ -25,6 +25,7 @@ $(function () {
 
     $("#usertitle").click(function (e) {
 	$(e.srcElement.parentNode).toggleClass('personal_menu_activated');
+	return false;
     });
 
 });
