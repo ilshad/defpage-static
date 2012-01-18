@@ -88,7 +88,7 @@ legend {font-weight:bold;font-size:1.2em;margin-top:-0.2em;margin-bottom:1em;}
 fieldset, #IE8#HACK {padding-top:1.4em;}
 legend, #IE8#HACK {margin-top:0;margin-bottom:0;}
 input[type=text], input[type=password], input[type=url], input[type=email], input.text, input.title, textarea {background-color:#fff;border:1px solid #bbb;color:#555;}
-input[type=text]:focus, input[type=password]:focus, input[type=url]:focus, input[type=email]:focus, input.text:focus, input.title:focus, textarea:focus {border-color:#666;}
+input[type=text]:focus, input[type=password]:focus, input[type=url]:focus, input[type=email]:focus, input.text:focus, input.title:focus, textarea:focus {border-color:#666; box-shadow:2px 2px 2px #ddd;}
 select {background-color:#fff;border-width:1px;border-style:solid;color:#555;}
 input[type=text], input[type=password], input[type=url], input[type=email], input.text, input.title, textarea, select {margin:0.5em 0;}
 input[type=submit]:disabled {background-color:#aaa; color:#ccc;}
@@ -107,6 +107,7 @@ form.inline p {margin-bottom:0;}
 .notice a {color:#514721;}
 .success a {color:#264409;}
 .info a {color:#205791;}
+input.bold {font-weight:bold; color:#777;}
 
 /* grid.css */
 .container {width:800px;margin:0 auto;}
@@ -163,7 +164,14 @@ div.groupitem a:hover {background-color:#676767;}
 a:focus, a:hover {color:#676767;}
 span.logo1, .info {color:#676767;}
 
-/* defpage.auth */
-#main {padding:10px;}
-input.bold {font-weight:bold; color:#777;}
-input.bold:focus {box-shadow:2px 2px 2px #ddd;}
+/* unauth frontpage */
+.big {padding:0 0 0 10px;}
+.big input {height:25px; color:#aaa; font-size:1.5em; font-weight:bold;}
+.big input:focus {color:#676767;}
+.big .message {color:#676767; font-size:1.9em; font-weight:bold;}
+.big .description {float:left; padding:0 0 0 5px; color:#676767; font-size:1.21em; margin-right:5px;}
+.big #footer {width:570px; text-align:center; clear:both; color:#676767; border-top:0; padding-top:20px;}
+.big .notice {width:550px; font-size:1.5em; margin:0 10px 0 5px;}
+#sign {padding:3px 0; margin:10px 0; text-align:center; font-weight:bold; color:#676767; height:25px; font-size:1.3em; border:0; background-color:#e6e6e6; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; text-shadow:1px 2px 2px #fff;}
+#sign:active {background-color:#ddd;}
+#frontpage_logo {margin-top:-25px;}
