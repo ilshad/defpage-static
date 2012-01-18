@@ -28,7 +28,7 @@ $(function () {
 	return false;
     });
     $(document).click(function (e) {
-	$("#personal_menu").toggleClass('personal_menu_activated');
+	$("#personal_menu").removeClass('personal_menu_activated');
     });
 
 });
