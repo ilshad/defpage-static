@@ -206,4 +206,4 @@ div.jqi textarea {width:480px; height:300px;}
 /* dropdown menu */
 #personal_menu_items {display:none; padding:10px 15px 5px 0;}
 .personal_menu_activated #personal_menu_items {display:block; position:absolute; width:200px; right:0; background:#fff; overflow:visible; box-shadow:3px 3px 5px #ddd; -webkit-box-shadow:3px 3px 5px #ddd; -moz-box-shadow:3px 3px 5px #ddd;}
-#personal_menu_items a, #personal_menu_items span {display:block;}
+#personal_menu_items a, #personal_menu_items span {display:block; margin-top:10px;}
