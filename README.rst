@@ -2,14 +2,6 @@
 defpage.com static server
 =========================
 
-Log directory
-=============
-
-Prepare log directory::
-
-  # mkdir /var/log/defpage_static
-  # chgrp staff /var/log/defpage_static
-
 Deploy
 ======
 
