@@ -23,12 +23,15 @@ $(function () {
         return false;
     });
 
-    $("#usertitle").click(function (e) {
-	$(e.srcElement.parentNode).toggleClass('personal_menu_activated');
-	return false;
-    });
-    $(document).click(function (e) {
-	$("#personal_menu").removeClass('personal_menu_activated');
-    });
+    $("#personal_menu").hover(
+	function (x) {
+	    $("#personal_menu").addClass('personal_menu_activated');
+	    return false;
+	},
+	function () {
+	    $("#personal_menu").removeClass('personal_menu_activated');
+	}
+    );
+	    
 
 });
