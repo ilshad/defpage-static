@@ -136,7 +136,7 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 #topbar {padding-top:16px;}
 #topbar a {font-weight:bold; margin-left:20px;}
 #usertitle {color:#676767; padding: 0 20px 5px 0; background:transparent url(../images/open_menu.png) no-repeat scroll right top;}
-#cleartop {padding-bottom:60px;}
+#cleartop {padding-bottom:50px;}
 #main {padding:10px;}
 #dialog_preview {background-color:#fff; top:20px; bottom:20px; left:20px; width:600px;}
 .textalign-right {text-align:right;}
