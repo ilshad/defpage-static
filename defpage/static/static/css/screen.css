@@ -108,6 +108,7 @@ form.inline p {margin-bottom:0;}
 .success a {color:#264409;}
 .info a {color:#205791;}
 input.bold {font-weight:bold; color:#777;}
+div.form_label {color:#676767; text-shadow:1px 2px 2px #fff; font-weight:bold; font-size:17px; display:inline;}
 
 /* grid.css */
 .container {width:800px;margin:0 auto;}
