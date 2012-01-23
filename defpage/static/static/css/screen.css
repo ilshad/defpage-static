@@ -139,6 +139,7 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 #cleartop {padding-bottom:50px;}
 #main {padding:10px;}
 #dialog_preview {background-color:#fff; top:20px; bottom:20px; left:20px; width:600px;}
+div.breadcrumbs {padding-left:10px;}
 .textalign-right {text-align:right;}
 .textalign-center {text-align:center;}
 
