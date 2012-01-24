@@ -165,6 +165,8 @@ div.actions_master li.done {text-decoration:line-through; color:#bbb;}
 
 ul.pretty li {list-style-image:url(../images/arrow_gray.gif);}
 
+div.collection_info {margin:10px 0 0 0;}
+
 /* color theme */
 input[type=submit], input[type=reset] {background-color:#a52a2a;}
 .jqmTitle {background-color:#2967a5;}
