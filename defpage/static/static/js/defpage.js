@@ -1,5 +1,22 @@
 /* (c) defpage.com */
 
+(function($) {
+    $.fn.validateForm = function (props) {
+	var success = true;
+	$(this).parents('form').each(function () {
+	    var form = this;
+	    for (ob in props) {
+		var v = $.trim(form[ob].value);
+		if (v == props[ob] || v == '') {
+		    success = false;
+		    break;
+		};
+	    };
+	});
+	return success;
+    };
+})(jQuery);
+
 $(function () {
 
     $("#ajax_loader").ajaxStart(function () {
@@ -18,20 +35,21 @@ $(function () {
             $('#back-top').fadeOut();
         }
     });
-    $('#back-top a').click(function () {
-        $('body,html').animate({scrollTop: 0}, 800);
+    $("#back-top a").click(function () {
+        $("body,html").animate({scrollTop: 0}, 800);
         return false;
     });
 
     $("#personal_menu").hover(
 	function (x) {
-	    $("#personal_menu").addClass('personal_menu_activated');
+	    $("#personal_menu").addClass("personal_menu_activated");
 	    return false;
 	},
 	function () {
-	    $("#personal_menu").removeClass('personal_menu_activated');
+	    $("#personal_menu").removeClass("personal_menu_activated");
 	}
     );
 	    
 
 });
+
