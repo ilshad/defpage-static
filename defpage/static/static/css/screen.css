@@ -114,11 +114,13 @@ div.alt_label {color:#676767; text-shadow:1px 2px 2px #fff; font-weight:bold; fo
 /* grid.css */
 .container {width:800px;margin:0 auto;}
 .showgrid {background:url(../images/grid.png);}
-.column, .span-800, .span-600, .span-400, .span-200 {float:left}
+.column, .span-800, .span-600, .span-500, .span-400, .span-300, .span-200 {float:left}
 .column, .span-800, .span-400, .span-200 {margin-right:10px;}
 .span-800 {width:800px; margin-right:0;}
 .span-600 {width:600px;}
+.span-500 {width:500px;}
 .span-400 {width:390px;}
+.span-300 {width:290px;}
 .span-200 {width:190px;}
 .border {padding-right:4px;margin-right:5px;border-right:1px solid #ddd;}
 .colborder {padding-right:24px;margin-right:25px;border-right:1px solid #ddd;}

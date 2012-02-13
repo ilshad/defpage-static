@@ -14,7 +14,7 @@
 /* ie.css */
 body {text-align:center;}
 .container {text-align:left;}
-* html .column, * html .span-800, * html .span-600, * html .span-400, * html .span-200, * html .span-150 {display:inline;overflow-x:hidden;}
+* html .column, * html .span-800, * html .span-600, * html .span-500, * html .span-400, * html .span-300, * html .span-200, * html .span-150 {display:inline;overflow-x:hidden;}
 * html legend {margin:0px -8px 16px 0;padding:0;}
 sup {vertical-align:text-top;}
 sub {vertical-align:text-bottom;}
