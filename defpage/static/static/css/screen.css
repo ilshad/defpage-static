@@ -172,6 +172,12 @@ div.collection_info {margin:10px 0 0 0;}
 
 #bottom_sidebar {margin-top:20px;}
 
+/* special select used in gd app */
+div.select_row {cursor:pointer;}
+div.select_row_over {background:whiteSmoke;}
+div.select_row_selected {font-weight:bold;}
+div.show_choice {color:#2967a5;}
+
 /* color theme */
 input[type=submit], input[type=reset] {background-color:#a52a2a;}
 .jqmTitle {background-color:#2967a5;}
