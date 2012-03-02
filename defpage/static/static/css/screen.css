@@ -170,9 +170,12 @@ div.actions_master li.done {text-decoration:line-through; color:#bbb;}
 
 ul.pretty li {list-style-image:url(../images/arrow_gray.gif);}
 
-div.collection_info {margin:10px 0 0 0;}
+div.collection_info {margin:10px 0 10px 0;}
 
 #bottom_sidebar {margin-top:20px;}
+
+#documents_listing div.document_item_title {padding:1px 0;}
+#documents_listing a.document_item:hover div {background-color:whiteSmoke;}
 
 /* special select used in gd app */
 div.select_row {cursor:pointer;}
