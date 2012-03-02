@@ -174,8 +174,11 @@ div.collection_info {margin:10px 0 10px 0;}
 
 #bottom_sidebar {margin-top:20px;}
 
-#documents_listing div.document_item_title {padding:1px 0;}
-#documents_listing a.document_item:hover div {background-color:whiteSmoke;}
+#documents_listing a.document_item {display: block; padding:2px 0 0 10px; margin-bottom:1px; border-bottom:1px solid #ddd; border-right:1px solid #ddd;}
+#documents_listing a.document_item:hover {background-color:whiteSmoke;}
+#documents_listing a.document_item span.document_item_title {}
+#documents_listing a.document_item em {color:#676767; right:10px;}
+#documents_listing a.source_css_gd {background:#eee url(../images/google_docs_item.png) right bottom no-repeat;}
 
 /* special select used in gd app */
 div.select_row {cursor:pointer;}
