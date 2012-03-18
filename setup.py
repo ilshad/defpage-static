@@ -9,7 +9,7 @@ CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 
 requires = [
     'pyramid',
-    'WebError',
+    'waitress',
     ]
 
 if sys.version_info[:3] < (2,5,0):
@@ -29,6 +29,5 @@ setup(name='defpage.static',
       entry_points = """\
       [paste.app_factory]
       main = defpage.static:main
-      """,
-      paster_plugins=['pyramid'],
+      """
       )
