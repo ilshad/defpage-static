@@ -148,7 +148,7 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 #main {padding:10px;}
 
 input[type=submit], input[type=reset], button { padding:3px 10px; border:0; color:#fff; font-weight:bold; cursor:pointer;}
-#footer {margin-top:20px; padding-top:10px; border-top:1px solid #ddd;}
+footer {margin-top:20px; padding-top:10px; border-top:1px solid #ddd;}
 #copyrights {margin-right:0 !important;}
 #copyrights a {color:#676767; text-align:right;}
 #addinfo a {font-weight:bold; margin-left:10px; color:#676767;}
@@ -233,6 +233,7 @@ div.jqi textarea {width:480px; height:300px;}
 #back-top a:hover span {background-color:#ddd;}
 
 /* dropdown menu */
+#personal_menu {float:right;}
 #personal_menu_items {display:none; padding:10px 15px 5px 0;}
 .personal_menu_activated #personal_menu_items {display:block; position:absolute; width:200px; right:0; background:#fff; overflow:visible; box-shadow:3px 3px 5px #ddd; -webkit-box-shadow:3px 3px 5px #ddd; -moz-box-shadow:3px 3px 5px #ddd;}
 #personal_menu_items a, #personal_menu_items span {display:block; margin-top:10px;}
