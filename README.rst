@@ -19,3 +19,5 @@ Run tests::
 Run static for development::
 
   $ bin/pserve development.ini --reload
+
+test
