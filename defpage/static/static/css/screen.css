@@ -174,6 +174,7 @@ ul.pretty li {list-style-image:url(../images/arrow_gray.gif);}
 
 #bottom_sidebar {margin-top:20px;}
 
+#documents_listing {margin-top:10px;}
 #documents_listing a.document_item {display: block; padding:3px 0 0 0;}
 #documents_listing a.document_item:hover {background-color:whiteSmoke;}
 #documents_listing a.document_item span.document_item_title {}
