@@ -184,7 +184,7 @@ ul.pretty li {list-style-image:url(../images/arrow_gray.gif);}
 table.transmissions_listing {margin:10px 0 0 0;}
 table.transmissions_listing td {margin:0;}
 table.transmissions_listing tr:hover {background-color:whiteSmoke;}
-table.transmissions_listing td a {display:block; padding:7px;}
+table.transmissions_listing td a {display:block; padding:3px 0 0 0;}
 
 /* special select used in gd app */
 div.select_row {cursor:pointer;}
