@@ -7,7 +7,7 @@ Deploy
 
 Create virtual environment and deploy static within it::
 
-  $ git clone git@github.com:astoon/defpage-static.git
+  $ git clone git@github.com:ilshad/defpage-static.git
   $ cd defpage_static
   $ virtualenv --no-static-packages --distribute .
   $ bin/pip install -e .
